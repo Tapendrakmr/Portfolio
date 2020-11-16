@@ -1,0 +1,30 @@
+.project {
+  margin: auto;
+  width: 90%;
+}
+.project .heading {
+  margin-top: 20px;
+  font-size: 50px;
+  line-height: 62px;
+  color: #001d38;
+  z-index: 0;
+
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+.project .project_info {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+
+  padding: 25px;
+  height: 400px;
+
+  /* width: 100%; */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.project .project_info::-webkit-scrollbar {
+  display: none;
+}

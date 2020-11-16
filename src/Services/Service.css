@@ -1,0 +1,17 @@
+.service .heading {
+  font-size: 50px;
+  line-height: 62px;
+  color: #001d38;
+  z-index: 0;
+  padding-bottom: 15px;
+  font-family: sans-serif;
+}
+.cardinfo {
+  display: flex;
+  justify-content: space-evenly;
+  overflow-y: hidden;
+}
+
+.stack_images {
+  height: 226px;
+}

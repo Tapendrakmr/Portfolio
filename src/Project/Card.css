@@ -1,0 +1,26 @@
+.card_component {
+  object-fit: contain;
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+  border: 2px solid green;
+  transition: transform 450ms;
+}
+.card_component:hover {
+  transform: scale(1.08);
+}
+.Project_name {
+  font: normal;
+  text-align: center;
+}
+.button_css {
+  display: flex;
+  justify-content: space-around;
+}
+.banner_button {
+  background-color: rgba(140, 20, 252, 1);
+  color: white;
+  border-radius: 15%;
+  width: 50%;
+  height: 10%;
+}
