@@ -1,3 +1,47 @@
+/* .header {
+  height: 80px;
+} */
+
 #basic-navbar-nav {
   margin-left: 65%;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+  font-family: "Roboto Slab";
+}
+
+.header .basic-navbar-nav a {
+  color: #623ed9;
+}
+
+.fixed-nav {
+  /* position: fixed;
+  width: 100%;
+  z-index: 2;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1); */
+
+  left: 0;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+  z-index: 9999;
+  -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+}
+
+@keyframes fadeInDown {
+  from {
+    top: -100px;
+    transition: 1s ease all;
+  }
+
+  to {
+    top: 0;
+  }
 }

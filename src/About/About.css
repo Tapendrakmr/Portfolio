@@ -3,7 +3,31 @@
   justify-content: space-between;
   min-height: 500px;
   width: 100%;
-  background-color: #e1e5e8;
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  left: -80px;
+  bottom: -200px;
+  height: 250px;
+  width: 60%;
+  transform: rotate(12deg);
+}
+
+.about::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  right: -80px;
+  bottom: -200px;
+  height: 250px;
+  width: 60%;
+  transform: rotate(-12deg);
 }
 
 .detail {
@@ -11,6 +35,7 @@
 }
 .pic {
   flex: 0.4;
+  opacity: 0.7;
 }
 
 .pic img {

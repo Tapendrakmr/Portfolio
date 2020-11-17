@@ -26,7 +26,7 @@ function Project() {
               />
               <Card 
               imgsrc={nodeImage}
-              projectName='Library Managment System'
+              projectName='Node Chat-App'
               />
             </div>  
         </div>

@@ -1,0 +1,7 @@
+.BackgroundParticles {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #623ed9;
+  z-index: -99;
+}
