@@ -5,7 +5,7 @@ import insta from "../Docs/instagram.png"
 import Linkedin from "../Docs/linkdin.png"
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
            
            <div className="contact_section">
             <div className="heading_disuss">

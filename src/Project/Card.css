@@ -17,10 +17,45 @@
   display: flex;
   justify-content: space-around;
 }
-.banner_button {
+.banner {
   background-color: rgba(140, 20, 252, 1);
   color: white;
   border-radius: 15%;
   width: 50%;
   height: 10%;
+  text-decoration: none;
+  text-align: center;
 }
+a span {
+  text-decoration: none;
+}
+
+.boxed-btn {
+  background: rgba(140, 20, 252, 1);
+  color: #fff;
+  display: inline-block;
+  padding: 14px 38px;
+  font-family: "Muli", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* .boxed-btn:hover {
+  border: 1px solid #615cfd;
+  color: #615cfd !important;
+  background: transparent;
+  text-decoration: none;
+} */

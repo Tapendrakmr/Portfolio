@@ -32,6 +32,18 @@
 
 .detail {
   flex: 0.6;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-weight: 1000;
+}
+.detail .btn {
+  padding: 20px 20px;
+  background-color: orange;
+  transition: transform 450ms;
+}
+.detail .btn:hover {
+  transform: scale(1.08);
 }
 .pic {
   flex: 0.4;

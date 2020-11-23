@@ -17,16 +17,17 @@
   display: flex;
   overflow-x: scroll;
   overflow-y: hidden;
-  justify-content: center;
-
-  padding: 25px;
+  justify-content: space-between;
+  margin: auto;
+  padding: 40px;
   height: 400px;
 
   /* width: 100%; */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
-.service .project_info::-webkit-scrollbar {
+.project .project_info::-webkit-scrollbar {
   display: none;
 }
+
+/* For CARD FLIP ONLY */

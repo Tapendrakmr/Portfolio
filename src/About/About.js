@@ -4,10 +4,13 @@ import tapsImage from '../Docs/taps.jpg'
 import Particles from './../components/Particles/Particles'
 function About() {
     return (
-        <div className="about">
+        <div className="about" id="about">
            
             <div className='detail'>
-              full details
+              <h2>Hi </h2>
+              <h2>I'm Tapendra </h2>
+              <h2>Web developer</h2>
+              <a className="btn" href="https://cutt.ly/ihrvBG8" target="_blank" download >More about me</a>
             </div>
 
             
