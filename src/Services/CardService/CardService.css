@@ -1,0 +1,11 @@
+.service_Card {
+  object-fit: contain;
+  width: 300px;
+  height: auto;
+  border: 2px solid green;
+  transition: transform 450ms;
+  margin: 10px 50px;
+}
+.service_Card:hover {
+  transform: scale(1.08);
+}

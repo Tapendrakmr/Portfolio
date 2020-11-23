@@ -52,3 +52,18 @@
   background: transparent;
   text-decoration: none;
 }
+.socialmedia_contact {
+  margin: auto;
+  margin-top: 25px;
+}
+ul {
+  text-align: center;
+
+  margin: auto;
+  margin: auto;
+  display: inline-block;
+}
+li {
+  float: left;
+  padding: 25px;
+}

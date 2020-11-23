@@ -1,48 +1,15 @@
 import React from 'react'
 import "./Service.css"
-import Card from 'react-bootstrap/Card'
+
+import CardService from "./CardService/CardService"
 function Service() {
     return (
         <div className="service">
            <center> <h2 className='heading'>Service Provided</h2></center>
-            <div className='cardinfo'>
-                <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" className="stack_images" src="https://png.pngitem.com/pimgs/s/527-5276024_node-js-hd-png-download.png" />
-                    <Card.Body>
-                        {/* Image
-                           Title
-                           text
-                        */}
-                        <Card.Title>Card Title 1</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                       
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" className="stack_images" src="https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png" />
-                    <Card.Body>
-                        {/* Image
-                           Title
-                           text
-                        */}
-                        <Card.Title>Card Title 1</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                       
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem',height:'22rem' }}>
-                    <Card.Img variant="top" className="stack_images" src="https://hackernoon.com/drafts/ar1wv331n.png" />
-                
-                    <Card.Body>
-                        {/* Image
-                           Title
-                           text
-                        */}
-                        <Card.Title>Card Title 1</Card.Title>
-                        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-                       
-                    </Card.Body>
-                </Card>
+            <div className="project_info">
+                <CardService imgsrc="https://5.imimg.com/data5/EU/LN/DV/GLADMIN-56292461/selection-191-500x500.png" title="Backend"/>
+                <CardService imgsrc="https://cdn.august.com.au/wp-content/uploads/2015/04/Allan_Get-Web-Developer-Savvy_header.png" title="Frontend"/>
+                <CardService imgsrc="https://prod-001.s3.amazonaws.com/media/articleImages/Cartoon_Programmer_Writes_Code_Workspace_Concept._Vector.jpg" title="FullStack"/>
             </div>
         </div>
     )

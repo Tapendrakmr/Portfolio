@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Contact.css"
+import facebook from "../Docs/facebook.png"
+import insta from "../Docs/instagram.png"
+import Linkedin from "../Docs/linkdin.png"
 function Contact() {
     return (
         <div className="contact">
@@ -9,23 +12,36 @@ function Contact() {
             Let’s discuss for a project
             </div>
             <div className="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua.
+              Let's build something together.
             </div>
             
-            <a class="boxed-btn3" href="#">Start Talking</a>
+            <a class="boxed-btn3" href="mailto:tapendrakmr786@gmail.com">Write an email</a>
                 
             
             <div className="footer">
-                <div className="chatbox">
-
-                </div>
+                
+                <center>
                 <div className="socialmedia_contact">
-                    fac 
-                    twitter
-                    insta
-                    google
+                   
+                    <ul className="socialmedia">
+                        <li className="social" >
+                            <a href="https://www.facebook.com/tapendra.kumar.1481" target="_blank">
+                             <img src={facebook} height="50px" width="50px"/>
+                            </a>
+                        </li>
+                        <li className="social">
+                            <a href="https://www.instagram.com/tapendra690/" target="_blank">
+                                <img src={insta} height="50px" width="50px"/>
+                            </a>
+                        </li>
+                        <li className="social">
+                            <a href="https://www.linkedin.com/in/tapendra-kumar-76a040165/" target="_blank">
+                                 <img src={Linkedin} height="50px" width="50px"/>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+                </center>
             </div>
           </div>
           

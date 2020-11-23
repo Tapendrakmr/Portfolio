@@ -1,3 +1,7 @@
+.service {
+  margin: auto;
+  width: 90%;
+}
 .service .heading {
   font-size: 50px;
   line-height: 62px;
@@ -9,12 +13,20 @@
   font-family: "Roboto Slab", sans-serif;
   margin: 60px 0;
 }
-.cardinfo {
+.service .project_info {
   display: flex;
-  justify-content: space-evenly;
+  overflow-x: scroll;
   overflow-y: hidden;
+  justify-content: center;
+
+  padding: 25px;
+  height: 400px;
+
+  /* width: 100%; */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-.stack_images {
-  height: 226px;
+.service .project_info::-webkit-scrollbar {
+  display: none;
 }

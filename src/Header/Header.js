@@ -2,6 +2,7 @@ import React from 'react'
 import {useEffect,useState} from 'react'
 
 import "./Header.css"
+import logo from "../Docs/logo.png"
 import { Navbar, Nav, Button} from 'react-bootstrap';
 function Header() {
     const [show,handleShow]=useState(false)
@@ -20,6 +21,7 @@ function Header() {
 
         <div className={`header ${show && "fixed-nav"}`}>
              <Navbar bg="light" expand="lg" style={{height: "100%"}} >
+             <img src={logo} height="30px" width="30px"/>   
             <Navbar.Brand href="#home" >Tapendra</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"  />
             <Navbar.Collapse id="basic-navbar-nav">

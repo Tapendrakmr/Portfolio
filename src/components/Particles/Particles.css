@@ -2,6 +2,7 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #623ed9;
+  background-color: #f8ceec;
+  background-image: linear-gradient(315deg, #f8ceec 0%, #623ed9 74%);
   z-index: -99;
 }
