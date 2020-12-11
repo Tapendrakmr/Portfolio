@@ -3,12 +3,15 @@
   width: 90%;
 }
 .project .heading {
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 50px;
   line-height: 62px;
   color: #001d38;
   z-index: 0;
 
+  display: inline-block;
+  padding: 10px 40px;
+  border-bottom: 2px solid #623ed9;
   padding-bottom: 15px;
   font-family: sans-serif;
 }
@@ -17,14 +20,22 @@
   overflow-x: scroll;
   overflow-y: hidden;
 
-  padding: 25px;
-  height: 400px;
+  padding: 70px;
+  height: auto;
 
   /* width: 100%; */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  /* border: 1px solid grey; */
 }
 
 .project .project_info::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (width: 800px) {
+  .card_component {
+    height: 30px !important;
+    width: 20px !important;
+  }
 }

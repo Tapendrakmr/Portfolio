@@ -48,6 +48,7 @@
 }
 .boxed-btn3:hover {
   border: 1px solid #615cfd;
+  color: white;
   color: #615cfd !important;
   background: transparent;
   text-decoration: none;

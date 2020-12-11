@@ -1,21 +1,30 @@
 .card_component {
   object-fit: contain;
-  width: 300px;
-  height: auto;
-  margin-right: 20px;
-  border: 2px solid green;
+  width: 340px;
+  height: 410px;
+  margin-right: 40px;
+  border: 1px solid rgba(155, 150, 155, 0.5);
   transition: transform 450ms;
+  position: relative;
 }
 .card_component:hover {
   transform: scale(1.08);
 }
 .Project_name {
-  font: normal;
-  text-align: center;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 300;
+  margin: 10px 20px;
+}
+
+.project__about {
+  margin: 0px 20px;
+  font-size: 13px;
+  width: 85%;
 }
 .button_css {
-  display: flex;
-  justify-content: space-around;
+  position: absolute;
+  bottom: 12px;
+  margin-left: 20px;
 }
 .banner {
   background-color: rgba(140, 20, 252, 1);
@@ -28,21 +37,20 @@
 }
 a span {
   text-decoration: none;
+  /* color: rgba(225, 0, 0, 1); */
+  color: #623ed9;
 }
 
 .boxed-btn {
-  background: rgba(140, 20, 252, 1);
-  color: #fff;
+  /* background: rgba(140, 20, 252, 1); */
   display: inline-block;
-  padding: 14px 38px;
+  padding: 11px 38px;
   font-family: "Muli", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  border: 0;
-  border: 1px solid transparent;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+  /* border: 1px solid rgba(225, 0, 0, 1); */
+  border: 1px solid #623ed9;
+  border-radius: 10px;
   text-align: center;
   color: #fff !important;
   text-transform: capitalize;
@@ -53,9 +61,16 @@ a span {
   cursor: pointer;
   text-decoration: none;
 }
-/* .boxed-btn:hover {
-  border: 1px solid #615cfd;
+.boxed-btn:hover {
   color: #615cfd !important;
-  background: transparent;
+  transition: 1s ease;
+  /* background: rgba(225, 0, 0, 1); */
+  background: #623ed9;
   text-decoration: none;
-} */
+  padding: 11px 45px;
+}
+
+.boxed-btn:hover span {
+  color: white;
+}
+

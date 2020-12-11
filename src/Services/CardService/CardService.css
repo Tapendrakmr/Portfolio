@@ -1,11 +1,13 @@
-.service_Card {
+/* .service_Card {
   object-fit: contain;
   width: 300px;
   height: auto;
   margin-right: 20px;
   border: 2px solid green;
   transition: transform 450ms;
+  backface-visibility: hidden;
+  z-index: 3;
 }
 .service_Card:hover {
   transform: scale(1.08);
-}
+} */

@@ -7,10 +7,13 @@ function About() {
         <div className="about" id="about">
            
             <div className='detail'>
-              <h2>Hi </h2>
-              <h2>I'm Tapendra </h2>
-              <h2>Web developer</h2>
-              <a className="btn" href="https://cutt.ly/ihrvBG8" target="_blank" download >More about me</a>
+                <div className="about__myself">
+                    <h2>Hi </h2>
+                    <h2>I'm Tapendra Kumar</h2>
+                    <h2>Web developer</h2>
+                    <a className="btn" href="https://cutt.ly/ihrvBG8" target="_blank" download >More About Me</a>
+
+                </div>
             </div>
 
             
@@ -19,22 +22,13 @@ function About() {
                 <img src={tapsImage} />
              </div>
 
-             {/* <Particles 
-                  className="BackgroundParticles"
-                  params={{ 
-                    particles: { 
-                      number: { 
-                        value: 200, 
-                        density: { 
-                          enable: true, 
-                          value_area: 1000, 
-                        } 
-                      }, 
-                    }, 
-                  }} 
-              />  */}
 
               <Particles/>
+
+          
+        
+        <div className="wave">
+        </div>
 
               
         </div>
